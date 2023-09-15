@@ -71,7 +71,7 @@ document.addEventListener("keydown", (event) => {
   if (event.code === "ArrowLeft") {
     gamestate.Player.xSpeed = -constants.PLAYER_SPEED;
   }
-    if (event.code === "R") {
+    if (event.code === "KeyR") {
     resetGame();
   }
   if (event.code === "ArrowRight") {
