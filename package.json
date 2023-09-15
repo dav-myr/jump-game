@@ -1,0 +1,14 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "A game to teach about development",
+  "main": "\"\"",
+  "scripts": {
+    "test": "npx playwright test --reporter=list --headed --project=game-chrome --config=playwright.config.ts"
+  },
+  "author": "Marcus",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.37.1"
+  }
+}

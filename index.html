@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Platform Platform Game</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+            display: block;
+            margin: 0 auto;
+        }
+        .menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 800px;
+            margin:auto;
+            margin-top:1rem;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <button id="restartbtn">Restart</button>
+        <div class="highscore"><span id="lowestJumpCount"></span></div>
+    </div>
+    
+    <canvas id="gameCanvas" width="800" height="650"></canvas>
+
+    <div class="menu">    
+        <div class="currentjump"><span>Jumps: </span><span id="currentJumpCount"></span></div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
