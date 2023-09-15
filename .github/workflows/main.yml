@@ -22,5 +22,5 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 cp ./index.html s3://knowit-trainee-cloud-test1/index.html
-          aws s3 cp ./game.js s3://knowit-trainee-cloud-test1/game.js
+          aws s3 cp ./index.html s3://knowit-trainee-cloud-test1/
+          aws s3 cp ./game.js s3://knowit-trainee-cloud-test1/
